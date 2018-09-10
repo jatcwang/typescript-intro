@@ -58,6 +58,7 @@
     "@types/react-dom": "^16.0.7",
     "@types/redux": "^3.6.0",
     "prettier": "^1.14.2",
+    "ts-node": "^7.0.1",
     "typescript": "^3.0.3"
   },
   "jest": {
