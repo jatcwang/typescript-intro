@@ -41,7 +41,8 @@ type ExtendedAppAction = AppAction | {
   }
 }
 
-// You can use control flow (switch, if) to narrow the types, This is called Control Flow Based Analysis
+// You can use control flow (switch, if) to narrow the types,
+// This is called Control Flow Based Analysis
 function handleExtendedAction(act: ExtendedAppAction): string {
   if (act.type === 'ERROR') {
     return act.payload.message

@@ -31,12 +31,7 @@ class Car {
   }
 }
 
-const car: Car = {
-  type: 'Toyota',
-  doSomething: () => "rolled down the hill",
-  wheels: 4
-
-}
+const car: Car = new Car('Toyota', () => "rolled down the hill", 4)
 
 // Valid, because 'type' and 'doSomething' property exists for car
 helloAnimal(car)

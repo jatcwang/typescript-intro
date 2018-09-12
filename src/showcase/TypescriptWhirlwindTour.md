@@ -51,10 +51,10 @@ yarn add @types/react --dev
 * Only use `undefined`, use `null` if you must
   * Adopted by many TS codebases including the TS compiler itself
   * Simplifies checking: `if (value === undefined)`
-* Turn on the "strict" flag 
+* Turn on the "strict" flag
   * includes `strictNullChecks`, `noImplicitAny`, `strictFunctionTypes` and more flags automatically as TS improves
 * Ask for help if you feel a bit stuck :)
-  
+
 ## Resources
 * [Typescript Deep Dive](https://basarat.gitbooks.io/typescript/content/)
 * [Online Typescript Playground](https://basarat.gitbooks.io/typescript/content/)
